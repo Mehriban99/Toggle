@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first {
+  position: relative;
+}
+.first .slidebar {
+  display: none;
+  z-index: 2;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  background-color: yellow;
+}
+.first .slidebar a {
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  color: #121a21;
+  padding: 10px 0 10px 10px;
+}
+.first .header {
+  padding: 25px 0;
+  background-color: whitesmoke;
+}
+.first .header .header-left {
+  padding-top: 5px;
+}
+.first .header .header-left i {
+  cursor: pointer;
+  z-index: 1;
+}
+.first .header .header-middle {
+  padding-top: 5px;
+}
+.first .header .header-middle a {
+  font-size: 15px;
+  color: #121a21;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.first .header .header-middle a i {
+  margin-left: 3px;
+  font-size: 12px;
+}
+.first .header .header-right input {
+  border: none;
+  border-radius: 30px;
+  padding: 7px 0 7px 20px;
+  margin-right: 15px;
+  outline: none;
+}
+.first .header .header-right .cloud {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.first .header .header-right a {
+  font-size: 15px;
+  color: #121a21;
+  text-decoration: none;
+}
+.first .header .toggle {
+  padding-top: 8px;
+  position: relative;
+}
+.first .header .toggle .user {
+  font-size: 25px;
+  cursor: pointer;
+}
+.first .header .toggle #alt {
+  display: none;
+  background-color: grey;
+  position: absolute;
+  top: 4.5rem;
+  left: -30%;
+  padding: 10px 0 10px 20px;
+}
+.first .header .toggle #alt a {
+  font-size: 15px;
+  color: #121a21;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.first .first1 {
+  background-image: url(https://demo2.madrasthemes.com/vodi-demos/main/wp-content/uploads/sites/2/2019/04/slider-8-1.jpg);
+  padding: 16rem 0;
+}
+.first .first1 h1 {
+  font-size: 3rem;
+}
+
+.mediaheader {
+  display: none;
+  padding: 20px 0;
+  position: relative;
+}
+.mediaheader i {
+  font-size: 17px;
+  color: #121a21;
+  cursor: pointer;
+}
+.mediaheader .search {
+  margin-right: 10px;
+}
+.mediaheader #mediaalt {
+  display: none;
+  position: absolute;
+  padding: 20px 50px 20px 30px;
+  top: 170%;
+  right: 0;
+  background-color: #F6F7F9;
+}
+.mediaheader #mediaalt a {
+  font-size: 15px;
+  color: #121a21;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .header {
+    display: none;
+  }
+
+  .mediaheader {
+    display: block !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

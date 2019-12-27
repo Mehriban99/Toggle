@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first{
+    position: relative;
+    .slidebar{
+        display: none;
+        z-index: 2;
+        position: absolute;
+        width: 20%;
+        height: 100%;
+        background-color: yellow;
+        a{
+            text-decoration: none;
+            display: block;
+            font-size: 15px;
+            color: #121a21;
+            padding: 10px 0 10px 10px;
+        }
+    }
+    .header{
+        padding: 25px 0;
+        background-color: whitesmoke;
+    .header-left{
+        padding-top: 5px;
+
+            i{
+                cursor: pointer;
+                z-index: 1;
+            }
+    }
+    .header-middle{
+        padding-top: 5px;
+        a{
+            font-size: 15px;
+            color: #121a21;
+            margin-right: 15px;
+            text-decoration: none;
+            i{
+                margin-left: 3px;
+                font-size: 12px;
+            }
+        }
+    }
+    .header-right{
+        
+        input{
+            border: none;
+            border-radius: 30px;
+            padding: 7px 0 7px 20px;
+            margin-right: 15px;
+            outline: none;
+        }
+        .cloud{
+            font-size: 20px;
+            margin-right: 5px;
+        }
+        a{
+            font-size: 15px;
+            color: #121a21;
+            text-decoration: none;
+        }
+        
+    }
+    .toggle{
+        padding-top: 8px;
+        position: relative;
+        .user{
+            font-size: 25px;
+            cursor: pointer;
+        }
+        #alt{
+            display: none;
+            background-color: grey;
+            position: absolute;
+            top: 4.5rem;
+            left: -30%;
+            padding: 10px 0 10px 20px;
+            a{
+                font-size: 15px;
+                color: #121a21;
+                margin-right: 15px;
+                text-decoration: none;
+            }
+        }
+    }
+    }
+
+    .first1{
+        background-image: url(https://demo2.madrasthemes.com/vodi-demos/main/wp-content/uploads/sites/2/2019/04/slider-8-1.jpg);
+        padding: 16rem 0;
+        h1{
+            font-size: 3rem;
+        }
+    }
+}
+
+.mediaheader{
+    display: none;
+    padding: 20px 0;
+    position: relative;
+    i{
+        font-size: 17px;
+        color: #121a21;
+        cursor: pointer;
+    }
+    .search{
+        margin-right: 10px;
+    }
+    #mediaalt {
+        display: none;
+        position: absolute;
+        padding: 20px 50px 20px 30px;
+        top: 170%;
+        right: 0;
+        background-color: #F6F7F9;
+        a{
+            font-size: 15px;
+            color: #121a21;
+            text-decoration: none;
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    .header{
+        display: none;
+    }
+    .mediaheader{
+        display: block !important;
+    }
+  }
